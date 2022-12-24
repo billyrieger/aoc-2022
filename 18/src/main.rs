@@ -36,9 +36,9 @@ fn visible_area(cubes: &HashSet<IVec3>) -> u32 {
         IVec3::X,
         IVec3::Y,
         IVec3::Z,
-        -IVec3::NEG_X,
-        -IVec3::NEG_Y,
-        -IVec3::NEG_Z,
+        IVec3::NEG_X,
+        IVec3::NEG_Y,
+        IVec3::NEG_Z,
     ];
     let mut queue = vec![IVec3::ZERO];
     let mut visited = HashSet::new();
